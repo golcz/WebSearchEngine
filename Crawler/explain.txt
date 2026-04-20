@@ -1,0 +1,8 @@
+The program works as a primitive web crawler. At a high level the program starts by creating a sublist of seed URLS and then runs BFS web crawl based on other links found in each of these URL. 
+The following features are implemented:
+	* Creates a new URL based on global/relative path, (base tag is supported)
+	* Basic check for domain, basic structure of URL, etc.
+	* Support of robot exclusion protocol
+	* 4-level priority schema for new urls, based on the number of times domain was visited (check .py file)
+	* Check for redirecting and updating the dictionaries appropriately
+	* Unwanted extensions check and update (.pdf, .jpeg, etc.) based on MIME type
