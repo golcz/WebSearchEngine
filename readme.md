@@ -7,10 +7,10 @@ Built as a part of my Master's in CS at NYU.
 
 ## Project Structure
 ├── crawler/ # Python web crawler (.nz domains)
-├── indexer/ # C++ inverted index builder
-|── search/ # C++ BM25 search engine
 
-text
+├── indexer/ # C++ inverted index builder
+
+|── search/ # C++ BM25 search engine
 
 ## Modules
 
